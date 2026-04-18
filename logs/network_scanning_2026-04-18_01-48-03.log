@@ -1,0 +1,74 @@
+SPECTRE 2.0 — Network Scanning
+Timestamp : 2026-04-18 01:47:05
+──────────────────────────────────────────────────
+
+
+  ──────────────────── Network Scanning ────────────────────
+
+  [1]  ARP Scan   — discover hosts on local network
+  [2]  Port Scan  — scan open ports on a target
+  [3]  Ping Sweep — check which hosts are alive
+
+  [0]  Back
+
+  NetScan » 
+  ──────────────────────── ARP Scan ────────────────────────
+
+  [*] Detected subnet: 192.168.1.0/24
+
+  Enter range [192.168.1.0/24] »   [✗] Invalid network range: 1
+
+  Press Enter to continue » 
+  ──────────────────── Network Scanning ────────────────────
+
+  [1]  ARP Scan   — discover hosts on local network
+  [2]  Port Scan  — scan open ports on a target
+  [3]  Ping Sweep — check which hosts are alive
+
+  [0]  Back
+
+  NetScan » 
+  ──────────────────────── ARP Scan ────────────────────────
+
+  [*] Detected subnet: 192.168.1.0/24
+
+  Enter range [192.168.1.0/24] »   [*] ARP scanning 192.168.1.1/32 ...
+  [*] Probing 1 addresses...
+  [!] No hosts found.
+
+  Press Enter to continue » 
+  ──────────────────── Network Scanning ────────────────────
+
+  [1]  ARP Scan   — discover hosts on local network
+  [2]  Port Scan  — scan open ports on a target
+  [3]  Ping Sweep — check which hosts are alive
+
+  [0]  Back
+
+  NetScan »   [!] Invalid choice.
+
+  ──────────────────── Network Scanning ────────────────────
+
+  [1]  ARP Scan   — discover hosts on local network
+  [2]  Port Scan  — scan open ports on a target
+  [3]  Ping Sweep — check which hosts are alive
+
+  [0]  Back
+
+  NetScan » 
+  ──────────────────────── ARP Scan ────────────────────────
+
+  [*] Detected subnet: 192.168.1.0/24
+
+  Enter range [192.168.1.0/24] »   [✗] Invalid network range: y
+
+  Press Enter to continue » 
+  ──────────────────── Network Scanning ────────────────────
+
+  [1]  ARP Scan   — discover hosts on local network
+  [2]  Port Scan  — scan open ports on a target
+  [3]  Ping Sweep — check which hosts are alive
+
+  [0]  Back
+
+  NetScan » 

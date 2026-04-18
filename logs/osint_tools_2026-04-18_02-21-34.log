@@ -1,0 +1,19 @@
+SPECTRE 2.0 — OSINT Tools
+Timestamp : 2026-04-18 02:20:50
+──────────────────────────────────────────────────
+
+  ────────────────────── OSINT Tools ──────────────────────
+
+  ────────────────── SSL / TLS Inspector ──────────────────
+
+  Port [443] »   [*] Fetching certificate from google.com:443 ...
+
+  [+] Common Name  : *.google.com
+  [+] Organization : —
+  [+] Issuer       : Google Trust Services
+  [+] Valid From   : 2026-03-30
+  Valid To     : 2026-06-22  (65 days left)
+  [+] SANs         : *.google.com, *.appengine.google.com, *.bdn.dev, *.origin-test.bdn.dev, *.cloud.google.com, *.crowdsource.google.com, *.datacompute.google.com, *.google.ca ... +129 more
+  [+] Protocol     : TLS
+
+  ────────────────────── OSINT Tools ──────────────────────
