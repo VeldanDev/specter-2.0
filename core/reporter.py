@@ -69,7 +69,6 @@ def _build_html(timestamp: str, sections: list) -> str:
   .meta {{ color: #555; margin-top: 0.5rem; font-size: 0.85rem; }}
   .section {{
     background: #111; border: 1px solid #1a1a1a;
-    border-left: 3px solid #00e5ff;
     margin-bottom: 1.5rem; padding: 1.2rem;
     border-radius: 4px;
   }}
