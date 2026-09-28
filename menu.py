@@ -193,16 +193,21 @@ def _show_help():
         ("Bluetooth Scanning", "Discover nearby BT devices (Linux/Pi only)"),
         ("OSINT Tools",        "DNS, WHOIS, IP geolocation, subdomain enum"),
         ("System Monitoring",  "Live CPU/RAM/disk/network dashboard"),
+        ("Network Monitor",    "Live bandwidth and connection tracking"),
+        ("Packet Sniffer",     "Capture and inspect live traffic"),
+        ("Threat Detection",   "Flag suspicious network activity"),
+        ("Toolkit",            "Misc utilities"),
     ]
     for name, desc in modules_info:
         print(f"  {Color.CYAN}•{Color.RESET} {name:<22} {Color.DIM}{desc}{Color.RESET}")
 
     print(f"\n  {Color.CYAN}NAVIGATION{Color.RESET}")
     nav = [
-        ("[1-5]",   "Enter module"),
+        ("[1-9]",   "Enter module"),
         ("[0]",     "Exit SPECTRE"),
         ("[H]",     "This help screen"),
         ("[L]",     "View saved logs"),
+        ("[R]",     "Generate HTML report"),
         ("Ctrl+C",  "Stop current scan, return to menu"),
     ]
     for key, desc in nav:
